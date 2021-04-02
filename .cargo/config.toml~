@@ -1,7 +1,0 @@
-[build]
-target="aarch64-unknown-none"
-<<<<<<< HEAD
-rustflags = ["-C","link-arg=-Tsrc/link.ld"]
-=======
-rustflags = ["-C","link-arg=-Tsrc/link.ld", ]
->>>>>>> 864d9c4... update
