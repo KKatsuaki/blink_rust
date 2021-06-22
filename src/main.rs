@@ -12,7 +12,7 @@ const MMIO_BASE: usize = 0xFE00_0000;
 /// see the code in boot.rs
 fn main() -> ! {
     // set gpio pin
-    let mut led = gpio::GpioPin::new(16);
+    let mut led = gpio::GpioPin::new(21);
     led.set_function(GpioFunction::OUTPUT);
 
     let mut dur;
